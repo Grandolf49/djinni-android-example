@@ -1,0 +1,4 @@
+greeting_service = interface +c {
+    static create_service(): greeting_service;
+    greet(who: string): string;
+}
